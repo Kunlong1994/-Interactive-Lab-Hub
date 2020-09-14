@@ -8,7 +8,36 @@ Part B. Writing to the LCD
 
 
 e. Include a copy of your Lowly Multimeter code in your lab write-up.
+// include the library code:
+#include <LiquidCrystal.h>
 
+// initialize the library by associating any needed LCD interface pin
+// with the arduino pin number it is connected to
+const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
+LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
+
+int sensorPin = A0; //select the input pin for the potentiometer
+int sensorValue = 0; //variable to store the value coming from the sensor
+int sensorValueOld = 0;
+
+
+void setup() {
+  // set up the LCD's number of columns and rows:
+  lcd.begin(16, 2);
+  sensorValue = analogRead(sensorPin);
+}
+
+void loop() {
+  // turn off the display
+  lcd.noDisplay();
+  delay(500);
+  sensorValue = analogRead(sensorPin);
+  lcd.display();
+  lcd.clear();
+  lcd.print(sensorValue);
+  delay(500);
+
+}
 
 
 Part C. Using a time-based digital sensor
@@ -19,7 +48,7 @@ Part C. Using a time-based digital sensor
 Part D. Make your Arduino sing!
 a. How would you change the code to make the song play twice as fast?
 
-
+Change  line "int noteDuration = 1000/noteDurations[thisNote];" to "int noteDuration = 500/noteDurations[thisNote];"
 
 b. What song is playing?
 
