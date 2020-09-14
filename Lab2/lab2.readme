@@ -15,7 +15,7 @@ b. What voltage level do you need to power the display backlight?
 
 c. What was one mistake you made when wiring up the display? How did you fix it?
 
-I found that my wires sometimes kept coming out of the breadboard if I wasn't careful and bumped into something else - have extra caution when handling a breadboard with so many wires and make sure that wires are securely in place.
+
 
 d. What line of code do you need to change to make it flash your name instead of "Hello World"?
 
@@ -23,12 +23,12 @@ lcd.print("hello, world!"); to lcd.print("Alana!");
 
 e. Include a copy of your Lowly Multimeter code in your lab write-up.
 
-lowlymultimeter
+
 
 Part C. Using a time-based digital sensor
 Upload a video of your working rotary encoder here.
 
-lowlymultimeter
+
 
 Part D. Make your Arduino sing!
 a. How would you change the code to make the song play twice as fast?
@@ -42,8 +42,7 @@ Star Wars
 Part E. Make your own timer
 a. Make a short video showing how your timer works, and what happens when time is up!
 
-timer countdown along with pitches.h
 
-'Simon Says' esque game: First, the player turns the knob to represent how many light patterns to memorize (and how much time they will have to memorize). Note that I have this set to max out at 100 such that if the knob is turned to any value greater than 100, the timer will reset back to 100. Then, the player presses the yellow LED button to set the time and to begin the game. The randomized pattern is then displayed, and once this is complete, the countdown begins. At any point during this countdown, once the player feels like they have successfully memorized the pattern and is ready to re-enter, they can press the yellow LED button to signal that they are ready to enter the pattern, and then they will press each button in order coresponding to the pattern just displayed. If the player never presses the yellow LED button to signal that they have the pattern memorized and are ready to play, the player loses the game once the timer reaches 0, and a 'losing' message is displayed on the screen along with a negative sounding descending C minor chord playing out of the speakers (no time). If the player incorrectly enters the pattern, they lose the game, and a 'losing' message is displayed on the screen along with the same descending C minor chord (wrong pattern). If the player correctly enters the pattern, they win the game, and a 'winning' message is displayed along with a positive sounding ascending C major chord (won).
+
 
 b. Post a link to the completed lab report your class hub GitHub repo.
