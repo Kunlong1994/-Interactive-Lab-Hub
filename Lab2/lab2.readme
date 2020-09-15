@@ -1,7 +1,9 @@
-##Digital Timer
+Digital Timer
+===
 Include your responses to the bold questions below. Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as README.md pages on your GitHub, and post a link to that on your main class hub page.
 
-**Part A. Solder your LCD panel**
+Part A. Solder your LCD panel
+---
 [LCD setup](https://github.com/Kunlong1994/-Interactive-Lab-Hub/blob/master/Lab2/LCD%20set%20up.png)
 /**************************************************************************
  This is an example for our Monochrome OLEDs based on SSD1306 drivers
