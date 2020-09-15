@@ -1,10 +1,10 @@
-##Digital Timer
+#Digital Timer
 
 Include your responses to the bold questions below. Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as README.md pages on your GitHub, and post a link to that on your main class hub page.
 
-#Part A. Solder your LCD panel
+##Part A. Solder your LCD panel
  ---
- [LCD setup](https://github.com/Kunlong1994/-Interactive-Lab-Hub/blob/master/Lab2/LCD%20set%20up.png)
+ ![LCD setup](https://github.com/Kunlong1994/-Interactive-Lab-Hub/blob/master/Lab2/LCD%20set%20up.png)
  /**************************************************************************
   This is an example for our Monochrome OLEDs based on SSD1306 drivers
   Pick one up today in the adafruit shop!
@@ -162,7 +162,7 @@ StarWar
 #Part E. Make your own timer
 a. Make a short video showing how your timer works, and what happens when time is up!
 I still don't have a kit so I used fritzing to try to simulate a circuit and write a program in arduino hoping it could work. It consists a button and led. After the button is pressed, the time button is pressed would be recorded and the timer will start to countdown for the same time, when time is up, the led will blink as an alarm。 The code and circuit are modified from the tutorial from arduino offical guide (button, LiquidCrystalHelloWorld and whileloop) 
-[LCD button LED timer](https://github.com/Kunlong1994/-Interactive-Lab-Hub/blob/master/Lab2/LCD_timer.png)
+![LCD button LED timer](https://github.com/Kunlong1994/-Interactive-Lab-Hub/blob/master/Lab2/LCD_timer.png)
 b. Post a link to the completed lab report your class hub GitHub repo.
 
  // include the library code:
