@@ -1,8 +1,8 @@
-#Digital Timer
+# Digital Timer
 
 Include your responses to the bold questions below. Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as README.md pages on your GitHub, and post a link to that on your main class hub page.
 
-##Part A. Solder your LCD panel
+## Part A. Solder your LCD panel
  ---
  ![LCD setup](https://github.com/Kunlong1994/-Interactive-Lab-Hub/blob/master/Lab2/LCD%20set%20up.png)
  /**************************************************************************
@@ -109,7 +109,7 @@ Include your responses to the bold questions below. Include snippets of code tha
    delay(2000);
  }
 
-#Part B. Writing to the LCD
+## Part B. Writing to the LCD
 
 
  **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
@@ -145,12 +145,12 @@ Include your responses to the bold questions below. Include snippets of code tha
  }
 
 
-#Part C. Using a time-based digital sensor
+## Part C. Using a time-based digital sensor
 
 
 
 
-#Part D. Make your Arduino sing!
+## Part D. Make your Arduino sing!
 **a. How would you change the code to make the song play twice as fast?**
 
 Change  line "int noteDuration = 1000/noteDurations[thisNote];" to "int noteDuration = 500/noteDurations[thisNote];"
@@ -159,7 +159,7 @@ Change  line "int noteDuration = 1000/noteDurations[thisNote];" to "int noteDura
 
 StarWar
 
-#Part E. Make your own timer
+## Part E. Make your own timer
 a. Make a short video showing how your timer works, and what happens when time is up!
 I still don't have a kit so I used fritzing to try to simulate a circuit and write a program in arduino hoping it could work. It consists a button and led. After the button is pressed, the time button is pressed would be recorded and the timer will start to countdown for the same time, when time is up, the led will blink as an alarm。 The code and circuit are modified from the tutorial from arduino offical guide (button, LiquidCrystalHelloWorld and whileloop) 
 ![LCD button LED timer](https://github.com/Kunlong1994/-Interactive-Lab-Hub/blob/master/Lab2/LCD_timer.png)
