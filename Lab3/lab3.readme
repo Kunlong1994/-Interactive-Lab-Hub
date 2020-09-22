@@ -9,7 +9,7 @@ Deliverables are due next Tuesday. Post a link to the wiki page on your main cla
 
 ## Part A. Actuating DC motors
 
-![DCmotors](https://github.com/Kunlong1994/-Interactive-Lab-Hub/blob/master/Lab3/DCmotor.jpg)
+
 
 ## Part B. Actuating Servo motors
 
@@ -29,11 +29,9 @@ brown to ground
 
 
 **a. Which Arduino pin should the signal line of the servo be attached to?**
-
 9 (10 or 11 also works)
 
 **b. What aspects of the Servo code control angle or speed?**
- 
  for (pos = 0; pos <= 180; pos += 3)
     // in steps of 1 degree
     myservo.write(pos);             
@@ -45,7 +43,6 @@ brown to ground
     pos += 3 controls speed by step angle,  delay(15)controls by step time
     pos <= 180  and pos >= 0 controls angle
 ## Part C. Integrating input and output
-
    /* Sweep
     by BARRAGAN <http://barraganstudio.com>
     This example code is in the public domain.
@@ -91,13 +88,15 @@ brown to ground
 
 I broke the servo motor by directing connect it to 9V battery by mistake, I will make it up as I got the new motor, but this is what it should look like
 
-![DCmotors](https://github.com/Kunlong1994/-Interactive-Lab-Hub/blob/master/Lab3/stopwatch.jpg)
+![DCmotors](https://github.com/Kunlong1994/-Interactive-Lab-Hub/blob/master/Lab3/Connect9V%20battery.jpg)
+
 
 **Include a photo/movie of your autonomous device in action.**
 
 ## Part E. Paper display
 
 What I have in mind is a stopwatch that could display time on a LCD screen
+![DCmotors](https://github.com/Kunlong1994/-Interactive-Lab-Hub/blob/master/Lab3/stopwatch.jpg)
 
 **a. Make a video of your paper display in action.**
 
@@ -107,4 +106,3 @@ I broke the servo motor by directing connect it to 9V battery by mistake, I will
 
 **a. Make a video of your final design in action.**
  
-
